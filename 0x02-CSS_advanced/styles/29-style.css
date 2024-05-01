@@ -208,7 +208,7 @@ a:active {
     width: 100%;
   }
   .nav .nav-link:hover {
-    color: var(--nav-item-link-hover);
+    color: var(--color-white);
   }
   .section-hero {
     background-size: 90rem auto;
