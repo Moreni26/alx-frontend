@@ -16,7 +16,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="02-1-styles.css" />
+    <link rel="stylesheet" href="07-styles.css" />
   </head>
   <body>
     <!– Header –>
@@ -33,6 +33,8 @@
               />
             </a>
           </div>
+          <input class="menu-btn" type="checkbox" id="menu-btn">
+          <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
           <nav class="navbar-menu">
             <ul class="nav">
               <li class="nav-item">
@@ -67,7 +69,7 @@
                   />
                   <button class="search-button">
                     <svg
-                      viewbox="0 0 512 512"
+                    viewbox="0 0 512 512"
                       xmlns="http://www.w3.org/2000/svg"
                       width="20"
                       height="20"
@@ -214,11 +216,14 @@
             <div class="row">
               <div class="col-1-2">
                 <img
-                  src="images/pic-about-01.jpg"
+                  sizes="(max-width: 3000px) 40vw, 1200px"
+                  srcset="
+                  pic-about-01_kzwvrj_c_scale,w_380.jpg 380w,
+                  pic-about-01_kzwvrj_c_scale,w_983.jpg 983w,
+                  pic-about-01_kzwvrj_c_scale,w_1200.jpg 1200w"
+                  src="pic-about-01_kzwvrj_c_scale,w_1200.jpg"
                   alt=""
-                  width="460"
-                  height="460"
-                />
+                />                
               </div>
               <div class="col-1-2">
                 <h3>Who are we</h3>
@@ -262,11 +267,14 @@
                 <article class="card-blog">
                   <div>
                     <img
-                      src="images/pic-article-01.jpg"
+                      sizes="(max-width: 3000px) 40vw, 1200px"
+                      srcset="
+                      pic-article-01_psnixa_c_scale,w_380.jpg 380w,
+                      pic-article-01_psnixa_c_scale,w_883.jpg 883w,
+                      pic-article-01_psnixa_c_scale,w_1200.jpg 1200w"
+                      src="pic-article-01_psnixa_c_scale,w_1200.jpg"
                       alt=""
-                      width="305"
-                      height="305"
-                    />
+                    />  
                   </div>
                   <p class="card-category">Career</p>
                   <h3>
@@ -284,10 +292,13 @@
                 <article class="card-blog">
                   <div>
                     <img
-                      src="images/pic-article-02.jpg"
+                      sizes="(max-width: 3000px) 40vw, 1200px"
+                      srcset="
+                      pic-article-02_bed2qr_c_scale,w_380.jpg 380w,
+                      pic-article-02_bed2qr_c_scale,w_873.jpg 873w,
+                      pic-article-02_bed2qr_c_scale,w_1200.jpg 1200w"
+                      src="pic-article-02_bed2qr_c_scale,w_1200.jpg"
                       alt=""
-                      width="305"
-                      height="305"
                     />
                   </div>
                   <p class="card-category">Digital Life</p>
@@ -310,10 +321,13 @@
                 <article class="card-blog">
                   <div>
                     <img
-                      src="images/pic-article-03.jpg"
+                      sizes="(max-width: 3000px) 40vw, 1200px"
+                      srcset="
+                      pic-article-03_nlnqbz_c_scale,w_380.jpg 380w,
+                      pic-article-03_nlnqbz_c_scale,w_854.jpg 854w,
+                      pic-article-03_nlnqbz_c_scale,w_1200.jpg 1200w"
+                      src="pic-article-03_nlnqbz_c_scale,w_1200.jpg"
                       alt=""
-                      width="305"
-                      height="305"
                     />
                   </div>
                   <p class="card-category">Social</p>
